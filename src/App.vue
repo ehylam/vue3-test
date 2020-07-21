@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <section class="home">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <Hero title="Eric Lam" />
+    <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Hero from "./components/Hero.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    Hero
   }
-}
+};
 </script>

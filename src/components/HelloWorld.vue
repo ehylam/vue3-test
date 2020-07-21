@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import { ref } from "vue";
 // Creating usable components within a component.
 
 // const app = createApp({});
@@ -31,6 +32,7 @@
 // app.mount(".sub-section");
 
 export default {
+  setup() {},
   props: {
     msg: String,
     name: String
